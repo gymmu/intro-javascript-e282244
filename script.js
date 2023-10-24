@@ -4,7 +4,7 @@ function sayHello() {
 
 function changeBackground() {
   const body = document.querySelector("body")
-  body.style.backgroundColor = "darkgrey"
+  body.style.backgroundColor = "lightblue"
 }
 
 function deleteText() {
@@ -33,6 +33,11 @@ function resetCounter() {
 }
   
 
-
 function writeText() {
+  const numberElement = document.querySelector("#output")
+  const numberElement = document.querySelector("#input")
+  
+  const inputValue = inputElem.Value
+  const outputValue = outputElem.Value
+  const newValue =  
 }
