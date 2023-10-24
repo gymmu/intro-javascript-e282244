@@ -34,10 +34,18 @@ function resetCounter() {
   
 
 function writeText() {
-  const numberElement = document.querySelector("#output")
-  const numberElement = document.querySelector("#input")
+  const inputElement = document.querySelector("#input")
+  const outputElement = document.querySelector("#output")
+
+  const outValue = outputElement.textContent + "\n"+ inputElement.value
   
-  const inputValue = inputElem.Value
-  const outputValue = outputElem.Value
-  const newValue =  
+  outputElement.textContent = outValue
+
+  
+}
+
+function resetText() {
+  const numberElement = document.querySelector("#output")
+
+  numberElement.textContent = "Hier wird ein Text angehängt..."
 }
